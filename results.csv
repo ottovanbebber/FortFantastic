@@ -1,0 +1,1706 @@
+situation,mode,card_numbers,order_codes,monetary_figures,word_count,input_tokens,output_tokens,response_text
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level 
+in the front section is too low (Incident ID 35, severity 2). The attraction 
+is likely below full operational condition. What are my options to resolve 
+this, and what are the cost trade-offs between attempting diagnosis, buying 
+the solution, or accepting the penalty?",governed,3,0,10,590,10828,1024,"# Colorado River Rafting — Incident 35 Response Options
+
+## Situation Summary
+**Period 2, Day 3** | Incident ID 35 | Severity 2 | Water level too low (front section)
+Colorado River Rafting is likely at **ORANGE (50% capacity, –€40,000/day penalty)** or possibly RED. At its normal gross profit of ~€1,275/day, every day offline is costly — but the penalty clock is your biggest concern.
+
+---
+
+## Your Three Options
+
+### Option A — Attempt Cause Analysis (Diagnose First)
+**Cost:** €15,000 (inconclusive) or €50,000 (if repeated)
+**Timing:** Result typically same-day or next day
+
+**How it works:** You submit a cause analysis to identify which specific component is failing. If correct, you'll receive the solution code at no extra charge. If inconclusive, you pay €15,000 and learn nothing actionable; a *repeated* analysis costs €50,000.
+
+**Trade-off:**
+- ✅ Cheapest path *if* the diagnosis is conclusive on the first attempt
+- ❌ Risky: inconclusive result = €15,000 wasted + another day at ORANGE/RED penalty (≈€40,000)
+- ❌ If you then buy the solution anyway, total cost becomes €15,000 + €75,000 = €90,000 — the most expensive outcome
+- **Best if:** You have a strong hypothesis about the root cause (e.g. the WSN drain or inflow node is the culprit) and confidence in your diagnosis
+
+---
+
+### Option B — Buy the Solution Outright
+**Cost:** €75,000 (flat)
+**Timing:** Solution delivered immediately; implementation time depends on the card applied
+
+**How it works:** Pay €75,000 to receive the verified solution code directly, bypassing diagnosis entirely.
+
+**Trade-off:**
+- ✅ Fastest path to resolution — ends the penalty immediately upon implementation
+- ✅ Certainty: no risk of wasted diagnosis fees
+- ❌ €75,000 is a significant spend from current earnings (remember: activity cards are funded from earnings, *not* investment budget)
+- ❌ Must verify you are **not operating at a loss** before purchasing
+- **Best if:** You cannot afford more days at ORANGE/RED, or you have no strong diagnostic hypothesis
+
+**Key comparison:** At €40,000/day in ORANGE penalties, the solution pays for itself vs. doing nothing in under 2 days.
+
+---
+
+### Option C — Accept the Penalty and Wait
+**Cost:** €40,000/day (ORANGE) or €70,000/day (RED)
+**Timing:** Ongoing until resolved
+
+**How it works:** Do nothing this round and absorb the operational penalty while Colorado River Rafting runs at reduced or zero capacity.
+
+**Trade-off:**
+- ✅ Preserves cash in the short term
+- ❌ At €40,000/day, after just 2 days you've spent more than the buy-solution price (€75,000) in penalties alone
+- ❌ Colorado River Rafting's appeal contribution (6.0) is partially or fully lost, reducing your visitor count across all three visitor calculation factors
+- ❌ ORANGE/RED status can drag Customer Satisfaction into its 100-day weighted average, hurting you in future rounds
+- **Only reasonable if:** You are genuinely at a loss today and *cannot* legally purchase a card, and you expect to resolve it within 1 day
+
+---
+
+## Relevant Cards to Watch For
+Once the solution code is known (via diagnosis or purchase), the most likely resolution cards for a water-level issue on Colorado River Rafting are infrastructure-related. From the knowledge base:
+
+| Card | Name | Cost | Timing | Notes |
+|------|------|------|--------|-------|
+| #88 | Reconfiguration – Fries Corner WSN | €25,000 | impl: 10d | Addresses WSN drain; scope includes Colorado River Rafting's shared network |
+| #64 | Construction – WSN Drain | €350,000 | impl: 60d | Major fix, long timeline |
+| #26 | Repair – Colorado River Rafting Unit 2 | €35,000 | delivery: 14d + impl: 6d | Mechanical unit,"
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level 
+in the front section is too low (Incident ID 35, severity 2). The attraction 
+is likely below full operational condition. What are my options to resolve 
+this, and what are the cost trade-offs between attempting diagnosis, buying 
+the solution, or accepting the penalty?",governed,3,2,10,256,10849,490,"## Colorado River Rafting — Incident #35 (Day 2/3)
+
+**Current risk:** ORANGE or RED OpCon likely = €40k–70k/day penalty + 50% or 0% availability drag on visitors.
+
+---
+
+### Your 3 Options
+
+**Option 1: Attempt Cause Analysis (Diagnose)**
+- Cost: €15,000 if inconclusive; €50,000 if repeated
+- Upside: Identify the correct card, avoid €75k buy-solution cost
+- Risk: If inconclusive, you've spent €15k and still need to act — and a repeat costs €50k
+- Best if: You have a strong hypothesis and it's early in the round
+
+**Option 2: Buy the Solution Directly**
+- Cost: €75,000 flat
+- Upside: Guaranteed fix, no diagnostic risk
+- Relevant cards to consider based on water/infrastructure issues:
+  - **Card #88** [STD-3] Reconfiguration – Fries Corner WSN | €25,000 | impl: 10d (addresses WSN drain issues)
+  - **Card #26** [STD-5] Repair – Colorado River Rafting Unit 2 | €35,000 | delivery: 14d + impl: 6d
+- ⚠️ Wrong solution code = **€15,000 penalty each attempt** — don't guess
+
+**Option 3: Accept the Penalty**
+- Cost: ~€40k–70k/day depending on OpCon
+- Over 10 days = €400k–700k cumulative loss
+- Only viable if you're cash-constrained and expect a fast natural resolution (unlikely here)
+
+---
+
+### Recommendation Framing
+- **Day 3 of Period 2** = significant season remaining → penalties compound fast
+- Option 1 → Option 2 is the logical path if diagnosis is inconclusive
+- Option 3 is rarely rational given the daily penalty scale
+
+**What's your current cash position?** That determines whether Option 1 or 2 is feasible right now."
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level 
+in the front section is too low (Incident ID 35, severity 2). The attraction 
+is likely below full operational condition. What are my options to resolve 
+this, and what are the cost trade-offs between attempting diagnosis, buying 
+the solution, or accepting the penalty?",ungoverned,0,0,0,237,283,370,"## Incident 35 – Low Water Level (Severity 2)
+
+*Note: I don't have access to your game's exact cost figures or card catalog — the below uses reasonable simulation assumptions.*
+
+---
+
+### Option 1: Diagnose First *(Recommended)*
+- Pay a modest diagnostic fee to identify root cause (pump fault? supply line? sensor error?)
+- Reduces risk of buying the wrong fix
+- **Best if** repair costs are high and you're unsure of the cause
+- Trade-off: costs time (possibly another day of reduced operation) + diagnostic fee
+
+---
+
+### Option 2: Buy the Direct Fix
+- Purchase the repair/solution card outright (likely a pump repair or water supply upgrade)
+- Faster resolution, attraction back to full capacity sooner
+- **Best if** you've seen this incident before or the fix cost is clearly lower than ongoing penalties
+- Trade-off: higher upfront spend; risk of misdiagnosis if multiple causes exist
+
+---
+
+### Option 3: Accept the Penalty
+- Attraction runs at reduced capacity, losing revenue each day
+- **Severity 2 is moderate** — probably manageable short-term but compounds over multiple days
+- Trade-off: zero upfront cost, but cumulative revenue loss likely *exceeds* fix cost by Day 5–6 *(assumed)*
+
+---
+
+### My Ranked Suggestion:
+1. **Diagnose** (minimize wasted spend)
+2. **Direct fix** (if cash is tight and cause seems obvious)
+3. **Accept penalty** (only if cash is critically low)
+
+What does the repair card cost shown in your incident panel?"
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped 
+(Incident ID 83, severity 0). What are my options for resolving this, 
+and what are the cost implications of each?",governed,4,2,5,216,10816,387,"## Black Pearl — Incident #83 (Swing Stopped) | P2 D5
+
+**⚠️ Data Governance Notice:** Incident ID 83 is not in the knowledge base. The knowledge base contains no record of a ""swing"" component for Black Pearl. I cannot confirm the root cause or which specific card resolves this incident — guessing would risk the **€15,000 wrong-code penalty**.
+
+---
+
+### What the knowledge base *does* show for Black Pearl:
+
+| Card | Code | Cost | Scope | Timing | Notes |
+|------|------|------|-------|--------|-------|
+| #32 | STD-1 | €2,500 | Retainer 1 & 2 (locking software) | 2d impl | OpCon fix |
+| #34 | STD-3 | €4,500 | Turnstile 1 & 2 | 3d impl | OpCon fix |
+| #167 | STD-1 | €500 | Impersonator | 1d impl | OpCon fix |
+
+None of these explicitly reference a ""swing"" component.
+
+---
+
+### Recommended next steps:
+
+1. **Run Cause Analysis** in-game to identify the correct component — cost is €0 if first-time/conclusive, €15,000 if inconclusive or repeated
+2. **Check your in-game incident panel** for the specific component name, then match to the card above
+3. **Only enter a solution code once you've confirmed the match** — severity 0 means low urgency, so there's time to investigate
+
+What does the in-game cause analysis show?"
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped 
+(Incident ID 83, severity 0). What are my options for resolving this, 
+and what are the cost implications of each?",ungoverned,0,0,0,239,250,385,"## Incident 83 – Black Pearl Swing Stopped (Severity 0)
+
+Severity 0 suggests a minor/low-urgency fault — good news for your budget flexibility.
+
+---
+
+### Option 1: Standard Maintenance Response ⭐ Recommended
+- Send your in-house maintenance crew to inspect and restart
+- **Likely lowest cost** — staff wages already budgeted, no call-out premium
+- Small downtime window (est. 30–60 mins, *assumed*)
+- Best for preserving guest satisfaction without overspending early in Period 2
+
+---
+
+### Option 2: Ignore / Defer Resolution
+- Severity 0 may mean the game allows temporary non-resolution
+- **Zero immediate cost**, but risk of severity escalating to 1 or 2
+- Guest satisfaction on Black Pearl will likely tick down each day unresolved
+- **Not recommended** past Day 6 unless cash is critically tight
+
+---
+
+### Option 3: Emergency/Contract Repair Team
+- Faster resolution, possibly same-day guaranteed fix
+- **Higher cost** — typically a call-out fee + labour premium (*assumed*)
+- Warranted if Black Pearl is a high-revenue or high-traffic attraction
+- Likely overkill for severity 0 unless you're approaching a peak attendance day
+
+---
+
+### Key Trade-off Summary
+| Option | Cost | Risk | Speed |
+|--------|------|------|-------|
+| In-house | Low | Low | Medium |
+| Defer | Zero | Medium | None |
+| Contract | High | Very Low | Fast |
+
+**Missing info:** Your current maintenance staff capacity and Black Pearl's daily revenue would sharpen this decision considerably."
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1): 
+the outside display refrigerator suddenly shut down again. This is a repeated 
+incident. What are my options, and how does the repeated nature of this 
+incident affect my decision?",governed,2,2,4,249,10831,468,"## Ginosa Marina – Repeated Fridge Incident (Day 26, Period 2)
+
+### ⚠️ Urgency: ORANGE/RED risk if unresolved — attraction availability penalty applies each day down
+
+---
+
+### What ""Repeated"" means here
+- A **repeated Cause Analysis costs €50,000** (vs €15,000 first time) — avoid it unless you're genuinely unsure of root cause
+- You've already had this incident once, so the **root cause should be known**
+- Applying the same fix again without addressing the underlying issue risks a **third recurrence**
+
+---
+
+### Your Options (ranked by cost/risk)
+
+**Option 1 — Operational Fix: Card #51**
+`Repair - Ginosa Marina Cooling Counter | STD-2/3P-2 | €4,500 | impl: 2d`
+- Fixes the exterior cooling counter directly
+- ✅ Cheapest, fastest (back GREEN in ~2 days)
+- ⚠️ If root cause is power/supply-side, expect a *third* recurrence
+
+**Option 2 — Permanent Fix: Card #95**
+`Investment - Ginosa Marina Display Fridge | STD-2/3P-2 | €22,500 | impl: 3d`
+- Replaces/overhauls the fridge unit (targets both cooling counters)
+- ✅ Unlimited uses card — designed for recurring failures
+- ✅ Better long-term reliability; slightly longer downtime
+
+**Option 3 — Check PDS node**
+Ginosa Marina runs on **PDS node EU52** and **STM node Q**. If node utilisation is ≥75%, infrastructure stress could be causing repeated shutdowns — worth verifying before committing to either repair card.
+
+---
+
+**Recommendation framing:** If budget allows, Card #95 is the more durable solution given recurrence. Card #51 is viable if cash is tight and you accept the risk."
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1): 
+the outside display refrigerator suddenly shut down again. This is a repeated 
+incident. What are my options, and how does the repeated nature of this 
+incident affect my decision?",ungoverned,0,0,0,252,265,396,"## Repeated Refrigerator Shutdown – Ginosa Marina (ID 166)
+
+**Why ""repeated"" matters:**
+- A second occurrence strongly suggests a systemic/underlying fault, not a one-off glitch
+- Ignoring or quick-fixing again likely means a third incident, escalating severity and cost
+- Repeated incidents often carry compounding reputation or penalty hits in business sims
+
+---
+
+### Ranked Options
+
+**1. 🔧 Full Investigation + Permanent Fix (Recommended)**
+- Commission a proper diagnostic — electrical fault, compressor failure, power supply issue
+- Higher upfront cost, but breaks the repeat cycle
+- *Assumption: the game likely rewards resolving root causes and penalizes recurring incidents*
+
+**2. 🔄 Replace the Unit Entirely**
+- If repair costs are approaching unit value, replacement may be cost-competitive
+- Eliminates uncertainty about future failures
+- Trade-off: higher capital spend now; check if budget allows in late Period 2
+
+**3. ⚡ Temporary Fix + Monitor Closely**
+- Only viable if you're very budget-constrained right now
+- *High risk:* a third incident will almost certainly be worse (severity 2+, possible closure/fine)
+- If you choose this, set a reminder to budget for full replacement in Period 3
+
+---
+
+### Key Trade-offs to Weigh
+| | Cost Now | Risk Later | Reputation Impact |
+|---|---|---|---|
+| Full Fix | Medium | Low | Positive |
+| Replace | High | Lowest | Positive |
+| Temp Fix | Low | High | Negative |
+
+**Bottom line:** The repeated flag is your game warning you — a temp fix is likely the worst long-term value here."
+"Period 2, Day 38. Wild West has an incident: the second entry door does 
+not open (Incident ID 109, severity 1). What are my options to resolve 
+this incident, and what are the cost trade-offs?",governed,5,4,6,265,10819,466,"## Wild West — Incident 109 (Door 2, Severity 1)
+
+**⚠️ Data Governance Notice:** Incident ID 109 does not map to any specific card in the knowledge base for a Wild West door mechanism. No card in the database explicitly targets ""entry door 2"" for Wild West.
+
+---
+
+### What the KB *does* show for Wild West operational fixes:
+
+| # | Order Code | Card | Cost | Timing | Notes |
+|---|-----------|------|------|--------|-------|
+| #39 | STD-1 | Repair - Wild West Curtain | €10,000 | impl: 7d | Curtain, not door — may not apply |
+| #79 | STD-2/3P-2 | Special Vacation - Wild West | €15,000 | impl: 5d | Generic operational fix |
+| #80 | STD-1 | Personnel - Wild West Actor | €12,000 | impl: 7d | Operational fix, personnel-focused |
+| #38 | STD-1 | Construction - Wild West Visitor Terrace | €28,500 | impl: 5d | Structural operational fix |
+| #163 | STD-5 | Health Care - Wild West Horse | €500 | delivery: 3d + impl: 5d | Unlikely relevant |
+
+---
+
+### My recommendation:
+**I cannot confidently map this incident to a specific card** — risking a **€15,000 wrong-code penalty** per attempt.
+
+**Your safest options:**
+1. **Check the in-game incident panel** for any directly linked card suggestion
+2. **Run a Cause Analysis** if available (costs €15k if inconclusive — weigh vs. penalty risk)
+3. **Try #79 STD-2** (€15k, generic Wild West fix) as the most broadly scoped low-cost option
+
+Would you like me to analyze the financial impact of downtime at current OpCon?"
+"Period 2, Day 38. Wild West has an incident: the second entry door does 
+not open (Incident ID 109, severity 1). What are my options to resolve 
+this incident, and what are the cost trade-offs?",ungoverned,0,0,0,267,253,441,"## Incident 109 – Wild West Entry Door Failure (Severity 1)
+
+**Context:** Severity 1 suggests a minor-to-moderate operational issue. A stuck entry door reduces throughput and guest experience but likely doesn't force a full attraction shutdown.
+
+---
+
+### Option 1 ⭐ Immediate In-House Repair (Best Default)
+- Dispatch your maintenance crew now to diagnose/fix the door mechanism
+- **Pros:** Fastest resolution, no external contractor markup, keeps attraction partially open via remaining doors
+- **Cons:** Pulls maintenance staff from other tasks; if parts are needed, may still cause delay
+- *Assume: low parts cost, 1–3 hour fix*
+
+---
+
+### Option 2 – External Contractor Repair
+- Hire a specialist (e.g., door/hydraulics vendor) for a guaranteed fix
+- **Pros:** Likely faster resolution if in-house crew is busy or skill-mismatched; may come with warranty
+- **Cons:** Higher cost (assuming 1.5–2× in-house labor cost); scheduling lag possible
+- *Best if your maintenance team is already stretched thin*
+
+---
+
+### Option 3 – Temporary Closure of That Entry Point + Deferred Repair
+- Rope off Door 2, reroute guests to other entries, schedule repair for off-peak hours
+- **Pros:** Zero immediate disruption to operations; saves emergency labor premium
+- **Cons:** Reduced entry throughput could build queues; guest satisfaction may dip; risk of worsening the fault
+
+---
+
+### Key Trade-Off Summary
+| | Speed | Cost | Risk |
+|---|---|---|---|
+| In-house | Fast | Low | Low |
+| Contractor | Fastest | High | Very Low |
+| Defer | Slow | Lowest | Medium |
+
+**Note:** I'm assuming standard simulation mechanics — check your actual repair menu for real costs."
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out 
+(Incident ID 368, severity 0). The flour supplier previously filed for 
+bankruptcy on Day 11. What are my options to restore this attraction, 
+and which is most cost-effective?",governed,4,3,5,228,10832,487,"## 🟠 URGENT: PizzaPastaBasta — Flour Stock Incident (Day 44, P2)
+
+**Context:** Supplier went bankrupt Day 11 → this is a recurring supply chain problem. Severity 0 means attraction is likely at reduced OpCon (ORANGE/RED), costing 40–70k/day in penalties.
+
+---
+
+### Your 3 Options (ranked by cost-effectiveness):
+
+**Option 1 — Cheapest & Fastest (Recommended for cost)**
+- Card #159 | STD-2/3P-3 | **€450** | Delivery: 5d
+- ""Purchase - Pizza Pasta Basta Flour (Extra)""
+- ✅ Lowest cost, reusable (unlimited uses)
+- ⚠️ 5-day delivery = ~5 more days at reduced OpCon
+
+**Option 2 — Speed/Cost Balance**
+- Card #161 | STD-2/3P-3 | **€750** | Delivery: 3d
+- ""Purchase - Pizza Pasta Basta Flour (Supermarket)""
+- ✅ 2 days faster than #159, still cheap
+- ⚠️ Slightly more expensive per order
+
+**Option 3 — Permanent Fix (Frame Contract)**
+- Card #55 | STD-2/3P-2 | **€3,000** | Delivery: 2d
+- ""Frame Contract - Pizza Pasta Basta Flour""
+- ✅ Establishes a stock supply fix; fastest reliable delivery; prevents recurrence
+- ⚠️ Higher upfront cost, but eliminates repeat incidents
+
+---
+
+### Key Trade-off:
+Each day at ORANGE = **€40,000 penalty**. Even Card #55 at €3,000 pays back in **hours** vs. waiting 5 days with #159 (= €200,000 in penalties).
+
+**Card #55 is likely dominant here given daily penalty costs** — but verify you're not operating at a loss before purchasing."
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out 
+(Incident ID 368, severity 0). The flour supplier previously filed for 
+bankruptcy on Day 11. What are my options to restore this attraction, 
+and which is most cost-effective?",ungoverned,0,0,0,240,266,391,"## Incident 368 – Flour Stockout at Pizza Pasta Basta
+
+**Context note:** The bankruptcy on Day 11 is a strong signal your primary supplier is gone for good. Severity 0 suggests minor urgency, but unresolved supply gaps compound quickly.
+
+---
+
+### Ranked Options
+
+**1. 🥇 Source an Emergency Spot Supplier (Best Value)**
+- Find a secondary flour supplier in the market/vendor panel
+- *Assumption:* Spot suppliers cost ~10–25% premium over contract pricing but restore operations same-day
+- Trade-off: Higher per-unit cost, but no downtime loss on a food attraction
+
+**2. 🥈 Negotiate a New Long-Term Supply Contract**
+- Replace the bankrupt supplier with a stable contracted vendor
+- Likely lower per-unit cost than spot buying over time
+- Trade-off: May have a lead time (1–3 days assumed) before first delivery; attraction stays closed meanwhile
+- *Best if* you plan to run this attraction long-term
+
+**3. 🥉 Temporarily Substitute or Simplify the Menu**
+- Shift to flour-free items if the game allows menu editing
+- Trade-off: Reduces attraction appeal/revenue; may disappoint guests and affect ratings
+- Only viable as a short bridge, not a fix
+
+---
+
+### Recommendation Logic
+- If flour is cheap and available spot: **go spot now + contract immediately after**
+- If cash is tight: **contract only**, accept 1–2 day closure at severity 0
+- Avoid leaving it unresolved — idle food stalls typically drain upkeep without revenue
+
+**What does your vendor/supplier panel currently show as available?**"
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell 
+is leaking from the first gas stove (Incident ID 155, severity 0). 
+What are my options, and given the safety nature of this incident, 
+how should I prioritize it relative to other open incidents?",governed,1,2,5,229,10837,454,"## 🔴 SAFETY ALERT — Angus Gas Stove Incident (ID 155)
+
+**Gas leaks are life-safety hazards. This warrants immediate prioritization above ALL other open incidents regardless of financial impact.**
+
+---
+
+### Your Options for Incident 155
+
+| # | Card | Order Code | Cost | Action | Timing | Trade-off |
+|---|------|-----------|------|--------|--------|-----------|
+| 1 | **#53** Repair – Wok Gas Stove 1 | STD-2/3P-3 | €2,000 | Fixes gas stove 1 | impl: 1d | ⚠️ **Wrong attraction** — this targets Wok-In-And-Find-Out, not Angus |
+| 2 | **Cause Analysis first** | — | €15,000 (if inconclusive) | Identify correct fix | 1–2d delay | Safer if root cause unclear; risk of €15k charge |
+| 3 | **Close Angus immediately** | Operational decision | €0 upfront | Eliminate safety risk now | Instant | Revenue loss + RED OpCon penalty (€70k/day) |
+
+---
+
+### ⚠️ Critical Knowledge Gap
+The knowledge base contains **no Angus-specific gas stove repair card**. The closest card (#53) applies to **Wok-In-And-Find-Out's** gas stove — using it on Angus risks a **€15,000 wrong-code penalty**.
+
+**Recommended sequence:**
+1. **Shut down Angus now** (safety first — don't wait)
+2. Run **Cause Analysis** to confirm the correct solution code before ordering
+3. Apply the verified fix
+
+### Priority vs. Other Incidents
+Gas leak = **highest priority**. Override all financial/OpCon considerations until resolved. Human safety supersedes profit KPIs."
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell 
+is leaking from the first gas stove (Incident ID 155, severity 0). 
+What are my options, and given the safety nature of this incident, 
+how should I prioritize it relative to other open incidents?",ungoverned,0,0,0,241,271,383,"## Incident 155 – Gas Smell, Angus Restaurant
+
+**Context:** Severity 0 likely means lowest priority tier in-game, but gas leaks are a real-world life-safety issue — I'd treat this with higher urgency than the severity score suggests.
+
+---
+
+### Your Options (Ranked)
+
+**1. Investigate & Resolve Immediately (Recommended)**
+- Dispatch maintenance to inspect the stove now
+- Gas smells can escalate to fire/explosion risk, harming guests and staff
+- Even if severity 0 = ""minor"" in-game terms, ignoring it risks a cascade to a higher-severity incident
+- *Assumption: the game likely has an escalation mechanic where unresolved incidents worsen over time*
+
+**2. Shut Down the Stove Temporarily, Investigate Soon**
+- Take stove 1 offline, continue service on remaining equipment
+- Reduces guest impact while you queue the repair
+- Good middle ground if maintenance is currently tied up on a higher-severity incident
+- *Assumption: Angus has multiple stoves, so partial service continues*
+
+**3. Log & Defer**
+- Only reasonable if severity 0 genuinely means ""false alarm / superficial smell"" with no escalation risk
+- Not recommended given safety stakes — gas incidents are asymmetric risk
+
+---
+
+### Priority vs. Other Open Incidents
+- **Bump this above most non-safety incidents** regardless of severity score
+- Only defer if another incident involves **immediate guest injury or ride safety**
+- Gas leaks have potential for rapid, high-consequence escalation
+
+**Bottom line:** The severity rating probably understates real risk here — act sooner rather than later."
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction 
+is available to purchase at 450,000 with appeal +6. I already ordered 
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether 
+to invest further in it with activity cards, or hold the remaining budget 
+for other incidents. What are my options?",governed,2,1,7,209,10856,412,"## Period 2 Decision: Mindfreak Post-Purchase Investment
+
+**Context check:** Mindfreak (Show, appeal 6.0, base) is in your park. Remaining budget: ~€50,000 after purchase (€500k − €450k).
+
+---
+
+⚠️ **Critical constraint:** You have only ~€50,000 remaining. Most meaningful Mindfreak cards are unavailable at this budget.
+
+---
+
+### Available Options
+
+**Option 1 — Hold reserves (Recommended given budget)**
+- Cost: €0
+- Keep the €50k as incident buffer
+- Mindfreak at appeal 6.0 already contributes meaningfully to your visitor calculation
+- **Trade-off:** No appeal boost, but protects against RED/ORANGE penalties (€40–70k each) that would hurt more than any card gain
+
+**Option 2 — Promotion #118 [STD-1]**
+- Card: #118 | Code: STD-1 | Cost: €50,000 | Runtime: 30d
+- Effect: visitors +4.0%~+4.5% park-wide
+- **Trade-off:** Depletes entire reserve; zero incident buffer for ~30 days. High visitor upside but risky timing in Period 2
+
+**Option 3 — No affordable appeal-boosting cards exist**
+- Per knowledge base, no Mindfreak-specific enhancement cards are listed
+- Next meaningful investment would be #119 Promotion (Enroon) at €275k — out of budget
+
+---
+
+### Key Question for You:
+- How stable are your current attractions? Any ORANGE/RED OpCon right now?
+- If attractions are GREEN, Option 2 has merit. If any are unstable, Option 1 is safer."
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction 
+is available to purchase at 450,000 with appeal +6. I already ordered 
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether 
+to invest further in it with activity cards, or hold the remaining budget 
+for other incidents. What are my options?",ungoverned,0,0,1,230,290,376,"## Period 2 Budget Decision: Mindfreak Investment
+
+**Your situation:** ~50,000 remaining after Mindfreak purchase (assuming the 450k is already committed).
+
+---
+
+### Option 1 (Recommended): Hold reserves, minimal card investment
+- Keep most/all of the 50k as an emergency buffer
+- Period 2 typically brings incident events (weather, maintenance, PR issues) that can cost 20–50k unexpectedly
+- Mindfreak's +6 appeal likely generates strong baseline revenue without enhancement
+- **Trade-off:** You leave upside on the table short-term
+
+### Option 2: Invest 1 low-cost activity card on Mindfreak
+- If any cards cost ~15–20k or less, one targeted card (marketing push, staffing boost) could amplify the +6 appeal during peak Period 2 traffic
+- Leaves 30–35k buffer — likely enough for minor incidents
+- **Trade-off:** Tight if a major incident hits; assumes cards in that price range exist *(I'm assuming typical card costs here — verify your card catalog)*
+
+### Option 3: Go all-in on Mindfreak cards
+- Maximize the new attraction while it's ""fresh"" and novelty appeal is highest
+- **Trade-off:** Near-zero reserves is high-risk in Period 2; one bad incident could force a penalty or missed opportunity elsewhere
+
+---
+
+**Key question to ask yourself:** Do you know what incidents are likely in Period 2, and do you have any income coming in before the period closes to replenish reserves?
+
+That answer should drive your choice between Options 1 and 2."
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures 
+than usual are being transmitted from the cameras across the park 
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple 
+open incidents still unresolved. Should I address this infrastructure 
+issue now or defer it? What are my options?",governed,4,2,5,273,10846,509,"## VSS Incident 312 — Decision Support (Day 67, Period 2)
+
+### What We Know
+- **VSS** is an **auto-managed** system (not reconfigurable by you)
+- Severity 1 = low urgency; no attraction is showing RED/ORANGE from this incident in your description
+- VSS nodes: C1, C2, A2, B3, B4, D1, B1 — one or more cameras transmitting fewer images
+
+---
+
+### Relevant Cards Available
+
+| # | Order Code | Card | Cost | Timing | Effect |
+|---|---|---|---|---|---|
+| #170 | STD-2/4R-3 | Purchase VSS Component B4 (Fast) | €450 | 5d delivery | Operational fix (B4) |
+| #171 | STD-2/4R-3 | Purchase VSS Component B4 (Standard) | €650 | 7d delivery | Operational fix (B4) |
+| #172 | STD-2/4R-3 | Purchase VSS Component B4 (Express) | €750 | 3d delivery | Operational fix (B4) |
+
+> ⚠️ **Data gap:** The incident references ""fewer pictures across the park"" — if the root node is **not B4**, these cards may not resolve it. Confirm via Cause Analysis first.
+
+---
+
+### Your Three Options
+
+**Option 1 — Act now (cheapest, if B4 is confirmed root cause)**
+- Card #170 | €450 | 5-day delivery — minimal budget impact, low risk
+
+**Option 2 — Run Cause Analysis first**
+- Costs €15,000 if inconclusive — worthwhile given severity-1 status and multiple open incidents; avoids a €15,000 wrong-code penalty
+
+**Option 3 — Defer entirely**
+- Severity 1 with no confirmed attraction OpCon impact → low opportunity cost; reallocate budget to higher-priority open incidents
+
+**Recommendation framing:** With €500k available and multiple open incidents, Option 2 or 3 is likely prudent unless B4 is already confirmed."
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures 
+than usual are being transmitted from the cameras across the park 
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple 
+open incidents still unresolved. Should I address this infrastructure 
+issue now or defer it? What are my options?",ungoverned,0,0,0,230,280,370,"## Incident 312 – VSS Picture Transmission Degradation
+
+**Quick read:** Severity 1 is low-priority. With 500K budget and multiple open incidents, sequencing matters.
+
+---
+
+### Ranked Options
+
+**1. Defer & Monitor (Recommended)**
+- Severity 1 = minor impact; reduced camera throughput rarely causes immediate guest/revenue loss
+- Free your budget for higher-severity open incidents that likely have stronger score/revenue penalties
+- Set a mental deadline: reassess by Day 75 if unresolved
+- *Assumption: higher-severity incidents are open simultaneously — if not, reprioritize*
+
+**2. Partial Fix Now (Middle Ground)**
+- If the game offers a cheap diagnostic or partial resolution card, spend minimally to stop degradation from worsening
+- Useful if VSS incidents have a known escalation mechanic in this game (severity 1 → 2 over time)
+- Preserves most budget while reducing escalation risk
+- *Assumption: escalation is possible; verify in your incident panel if a timer or worsening indicator is shown*
+
+**3. Full Resolve Now (Lower Priority)**
+- Only justified if VSS directly ties to a safety/compliance metric that's already near a threshold, or if this is a ""cascading"" prerequisite for other incidents
+- 500K sounds healthy but unknown costs of open incidents make full spend risky
+
+---
+
+### Key Trade-off to Watch
+- **Escalation risk vs. budget preservation** — severity 1 is forgiving, but check if the incident panel shows a countdown or worsening trend before fully deferring."
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level
+in the front section is too low (Incident ID 35, severity 2). The attraction
+is likely below full operational condition. What are my options to resolve
+this, and what are the cost trade-offs between attempting diagnosis, buying
+the solution, or accepting the penalty?",governed,3,2,11,277,10845,523,"## Colorado River Rafting — Incident 35 (Water Level Low, Severity 2)
+
+**Current risk:** Likely ORANGE (50% capacity, –€40k/d penalty) or YELLOW (75%, –€20k/d). Every day unresolved costs you.
+
+---
+
+### Your Three Options
+
+**Option A — Cause Analysis (diagnose first)**
+- Cost: €15,000 if inconclusive; €50,000 if you repeat it
+- Upside: Identifies the correct card → avoids €15k wrong-code penalty
+- Risk: If inconclusive, you've spent €15k and still need to act. Best if you have no strong read on the cause.
+
+**Option B — Buy the Solution directly**
+- Cost: €75,000 flat
+- Upside: Guaranteed fix, no wrong-code risk, immediate clarity
+- Best if: you're losing ≥€40k/day and can't afford diagnostic delay
+
+**Option C — Apply a card directly (diagnosis by reasoning)**
+- Most likely candidate: **Card #3 | STD-2/3P-2 | Upgrade – Colorado River Rafting | €200,000 | impl: 10d** (appeal +1, fixed –300/d, var –0.50/u) — *but this is a strategic upgrade, not a repair*
+- More targeted repair candidates: **Card #26** (Unit 2, €35k + 14d delivery) or **Card #75** (Camera, €2k, immediate)
+- ⚠️ Water-level issues aren't clearly mapped to a single card in the knowledge base — wrong code = **€15,000 penalty each attempt**
+
+---
+
+### Quick Cost Comparison
+
+| Approach | Min Cost | Risk |
+|---|---|---|
+| Cause Analysis | €15,000 | Inconclusive possible |
+| Buy Solution | €75,000 | None |
+| Direct card guess | €15k–€200k+ | +€15k per wrong code |
+
+**Recommendation framing:** If you're at ORANGE, you're losing €40k/day — a Buy Solution at €75k pays back in ~2 days. If budget is tight, Cause Analysis first is the safer diagnostic path."
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level
+in the front section is too low (Incident ID 35, severity 2). The attraction
+is likely below full operational condition. What are my options to resolve
+this, and what are the cost trade-offs between attempting diagnosis, buying
+the solution, or accepting the penalty?",governed,4,3,10,266,10845,499,"## Colorado River Rafting — Incident 35 (Water Level Low, Severity 2)
+
+**Current risk:** Likely ORANGE (50% capacity, €40k/day penalty) or worse.
+
+---
+
+### Your Three Options
+
+**Option A: Cause Analysis (Diagnose first)**
+- Cost: €15,000 if inconclusive; €50,000 if repeated
+- Risk: May not pinpoint the fix — you could spend €15k and still not know which card to buy
+- Best if: You're unsure which repair card applies and want to avoid a wrong-code penalty (€15k each guess)
+
+**Option B: Buy the Solution directly (€75,000)**
+- Guarantees the correct fix without guessing
+- Compare against: daily ORANGE penalty = €40k/day, or RED = €70k/day
+- **Break-even:** Solution pays for itself vs. ORANGE in ~2 days; vs. RED in ~1 day
+- Best if: You're already Day 3 and losing €40–70k/day — delay is expensive
+
+**Option C: Apply a known card directly**
+- Relevant card in the database: **#27 | STD-3/3P-3 | Repair - Colorado River Rafting Camera (OS) | €500 | impl: 1d**
+- Also: **#26 | STD-5 | Repair - Colorado River Rafting Unit 2 | €35,000 | delivery: 14d + impl: 6d**
+- ⚠️ Neither card explicitly addresses a *water level* issue — wrong code = **€15k penalty**
+
+---
+
+### Recommendation Context
+- With a **water level** symptom, Card #26 (unit 2) or a WSN-related card (**#88 Reconfiguration - Fries Corner WSN, €25k**) *might* apply, but neither is a certain match.
+- Given the daily penalty cost, **Option B (Buy Solution, €75k)** likely pays back within 2 days if you're at ORANGE.
+
+**Your call:** How confident are you in the specific cause?"
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level
+in the front section is too low (Incident ID 35, severity 2). The attraction
+is likely below full operational condition. What are my options to resolve
+this, and what are the cost trade-offs between attempting diagnosis, buying
+the solution, or accepting the penalty?",ungoverned,0,0,0,242,279,381,"## Incident 35 – Low Water Level (Severity 2)
+
+**Context assumptions:** Severity 2 = moderate impact, likely reducing ride capacity/satisfaction but not fully closed. Early Period 2 means cash is probably still tight.
+
+---
+
+### Option 1: Diagnose First ⭐ *Recommended if diagnosis is cheap*
+- Pay a smaller upfront diagnostic fee to reveal the exact fix required
+- Avoids overpaying for a wrong solution
+- **Trade-off:** Costs time (1–2 days?); satisfaction may dip further while you wait
+- **Best if** diagnostic cost is <50% of the cheapest fix
+
+---
+
+### Option 2: Buy the Direct Fix
+- Purchase the solution outright (likely a pump repair, water valve fix, or refill action)
+- Resolves quickly, restoring full capacity and stopping satisfaction bleed
+- **Trade-off:** Higher upfront cost; if you guess wrong, you may waste money
+- **Best if** the fix is obvious and affordable relative to the revenue lost per day
+
+---
+
+### Option 3: Accept the Penalty
+- Do nothing; absorb reduced performance and any end-of-period penalty
+- Zero immediate cash outlay
+- **Trade-off:** Guest satisfaction drops compound over days; may trigger follow-on incidents; penalty at period end could exceed fix cost
+- **Best if** fix cost is unusually high AND the attraction is low-traffic
+
+---
+
+### Key Question to Weigh Yourself:
+> *How much daily revenue is Colorado River generating vs. the fix cost?*  
+If the fix pays back in 1–2 days of restored revenue, fixing promptly almost certainly wins."
+"Period 2, Day 3. Colorado River Rafting has an incident: the water level
+in the front section is too low (Incident ID 35, severity 2). The attraction
+is likely below full operational condition. What are my options to resolve
+this, and what are the cost trade-offs between attempting diagnosis, buying
+the solution, or accepting the penalty?",ungoverned,0,0,0,249,279,395,"## Incident 35 – Low Water Level (Severity 2)
+
+**Context assumptions** (flag if wrong): Severity 2 = moderate impact, likely reducing ride capacity/satisfaction but not a full shutdown. Early Period 2 suggests cash may still be tight.
+
+---
+
+### Option 1: Diagnose First ⭐ Recommended
+- Pay a smaller diagnostic fee to identify the exact cause (pump fault? leak? supply issue?)
+- **Pro:** Avoids overpaying for the wrong fix; may reveal a cheaper solution
+- **Con:** Costs time (1–2 days?); satisfaction may dip further while unresolved
+- **Best if** you're uncertain which fix to buy and cash is limited
+
+---
+
+### Option 2: Buy the Direct Fix
+- Purchase the presumed solution outright (pump repair/water refill — *assuming* that's the card available)
+- **Pro:** Fastest resolution; stops ongoing satisfaction/revenue bleed immediately
+- **Con:** Higher upfront cost; if it's the wrong fix, you've wasted money
+- **Best if** the fix cost is low relative to daily revenue loss, or the cause is obvious
+
+---
+
+### Option 3: Accept the Penalty
+- Do nothing; absorb reduced performance until it resolves naturally or you revisit it
+- **Pro:** Zero immediate spend
+- **Con:** Severity 2 likely means meaningful guest dissatisfaction compounding daily; could worsen
+- **Best if** cash is critically short AND the attraction is low-traffic
+
+---
+
+### Key Question to Guide You:
+> *What is your current daily revenue from this ride vs. the displayed fix cost?* If fix cost < ~2 days of lost revenue, Option 2 likely wins outright."
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped
+(Incident ID 83, severity 0). What are my options for resolving this,
+and what are the cost implications of each?",governed,3,3,5,252,10814,488,"## Black Pearl Swing Incident (ID 83, Severity 0)
+
+**Current situation:** Black Pearl is likely at reduced OpCon (YELLOW/ORANGE/RED) — confirm the color dot. Severity 0 suggests a minor/early-stage fault.
+
+---
+
+### Relevant Cards from Knowledge Base
+
+| # | Order Code | Card | Cost | Timing | Effect |
+|---|-----------|------|------|--------|--------|
+| 32 | STD-1 | Update – Black Pearl Locking Software | €2,500 | impl: 2d | Fixes retainer 1 & 2 |
+| 34 | STD-3 | Repair – Black Pearl Turnstile | €4,500 | impl: 3d | Fixes turnstile 1 & 2 |
+| 167 | STD-1 / 3P-1 | Personnel – Black Pearl Impersonator | €500 | impl: 1d | Operational fix |
+
+---
+
+### Options (ranked by cost/speed)
+
+**Option A — Card #167 (€500, 1d):** Fastest and cheapest. Best first attempt if the incident relates to a personnel/showmanship issue. Low risk.
+
+**Option B — Card #32 (€2,500, 2d):** Targets locking software/retainers. Plausible for a swing stoppage with a mechanical-electronic cause. Moderate cost, quick.
+
+**Option C — Card #34 (€4,500, 3d):** Targets turnstiles. Less directly linked to a ""swing stopped"" description, but worth considering if access/flow is implicated.
+
+---
+
+### ⚠️ Key Flags
+- **Wrong code = €15,000 penalty** — don't guess if unsure
+- If Black Pearl is RED, you're losing **€70k/day** in penalties — urgency is high
+- Black Pearl has **Appeal 7.0** — one of your top attractions; downtime hurts visitor numbers significantly
+
+What does the incident detail screen say about the affected component?"
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped
+(Incident ID 83, severity 0). What are my options for resolving this,
+and what are the cost implications of each?",governed,2,3,6,235,10814,438,"## Black Pearl Swing Incident (ID 83, Severity 0)
+
+**Current status:** Black Pearl is likely at reduced OpCon — confirm the color dot, but severity 0 suggests partial/full operational impact.
+
+---
+
+### Relevant Cards from Knowledge Base
+
+Scanning all Black Pearl-scoped cards:
+
+| # | Order Code | Card | Cost | Timing | Effect |
+|---|---|---|---|---|---|
+| 34 | STD-3 | Repair - Black Pearl Turnstile | €4,500 | impl: 3d | Operational fix (turnstiles) |
+| 32 | STD-1 | Update - Black Pearl Locking Software | €2,500 | impl: 2d | Operational fix (retainers 1 & 2) |
+| 167 | STD-1/3P-1 | Personnel - Black Pearl Impersonator | €500 | impl: 1d | Operational fix (impersonator) |
+
+⚠️ **None of these directly reference a ""swing.""** The knowledge base has no card explicitly scoped to a swing mechanism on Black Pearl.
+
+---
+
+### Your Options
+
+1. **Try Card #32 (STD-1, €2,500, 2d)** — cheapest mechanical fix; retainer components could plausibly relate to a swing/locking mechanism. Fastest resolution after #167.
+2. **Run a Cause Analysis** — confirms the correct fix before spending. Risk: costs **€15,000 if inconclusive**, €50,000 if repeated.
+3. **Buy Solution** — guaranteed fix, but costs **€75,000**.
+
+---
+
+**⚠️ Data gap:** No card in the knowledge base explicitly names a ""swing"" component for Black Pearl. I'd recommend verifying the incident detail panel carefully before ordering — a wrong code costs **€15,000**."
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped
+(Incident ID 83, severity 0). What are my options for resolving this,
+and what are the cost implications of each?",ungoverned,0,0,0,235,248,386,"## Incident 83 – Black Pearl Swing Stopped (Severity 0)
+
+Severity 0 suggests a **minor/low-urgency fault** — good news for your budget flexibility.
+
+---
+
+### Options (Ranked)
+
+**1. Basic In-House Repair (Recommended)**
+- Deploy your own maintenance crew immediately
+- Severity 0 implies minimal mechanical failure — likely electrical reset, safety brake trigger, or sensor fault
+- **Cost:** Staff time only; no parts likely needed
+- **Trade-off:** Ride stays closed until crew attends; small lost revenue window
+
+**2. Scheduled Maintenance Slot**
+- Queue the repair for your next routine maintenance window rather than dispatching immediately
+- **Cost:** Lowest possible — absorbed into normal maintenance budget
+- **Trade-off:** Ride remains offline longer; if Day 5 is a high-traffic period, lost throughput could outweigh savings
+- *Assumption: the game allows queued vs. immediate dispatch — verify in your maintenance panel*
+
+**3. External/Emergency Contractor**
+- Bring in specialist repair at premium cost
+- **Cost:** Significantly higher (assume 2–4× in-house cost based on typical sim mechanics)
+- **Trade-off:** Fastest resolution, but severity 0 almost certainly doesn't justify the premium
+
+---
+
+### Key Considerations
+- **Period 2, Day 5** — if weekend peak is approaching, faster resolution (Option 1) protects revenue
+- Severity 0 rarely requires parts replacement; budget impact should be minimal either way
+- Check if leaving it unresolved risks **severity escalation** — some games penalize delayed responses
+
+What does your maintenance crew availability look like right now?"
+"Period 2, Day 5. Black Pearl has an incident: the swing has stopped
+(Incident ID 83, severity 0). What are my options for resolving this,
+and what are the cost implications of each?",ungoverned,0,0,0,233,248,394,"## Incident 83 – Black Pearl Swing Stopped (Severity 0)
+
+Severity 0 suggests a minor/low-urgency fault. Here are your likely resolution options, ranked by overall value:
+
+---
+
+### 🥇 1. Basic Restart / Reset (Self-Fix)
+- Likely free or minimal staff cost
+- Works well for severity 0 — often a sensor trip or e-stop reset
+- **Trade-off:** If root cause isn't electrical/software, problem may recur quickly
+- *Assumption: most sims offer a no-cost ""reset"" action for low-severity incidents*
+
+---
+
+### 🥈 2. Standard Maintenance Crew Dispatch
+- Moderate cost (likely a flat call-out fee, e.g. a few hundred in-game currency)
+- Properly diagnoses and fixes the underlying issue
+- Ride offline for a short period (1–2 in-game days, assumed)
+- **Trade-off:** Costs more than a reset, but reduces repeat incident risk
+
+---
+
+### 🥉 3. Ignore / Defer
+- Zero immediate cost
+- Severity 0 means guest impact may be low right now
+- **Trade-off:** Could escalate to higher severity, triggering more expensive emergency repair and greater guest satisfaction loss later
+
+---
+
+## Quick Guidance
+- If Black Pearl is a **high-traffic ride**, dispatch maintenance now to protect satisfaction.
+- If it's **low-traffic**, a reset first is reasonable — watch for recurrence.
+- Deferring is generally not recommended even at severity 0.
+
+⚠️ *I don't have access to your specific cost figures — check your maintenance menu for exact prices before committing.*"
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1):
+the outside display refrigerator suddenly shut down again. This is a repeated
+incident. What are my options, and how does the repeated nature of this
+incident affect my decision?",governed,2,2,5,241,10828,444,"## Ginosa Marina – Repeated Refrigerator Shutdown (ID 166, Day 26)
+
+### Why ""Repeated"" Matters
+A repeated Cause Analysis costs **€50,000** (vs €15,000 first-time). This raises the stakes for guessing wrong. The repeated nature also suggests a root-cause fix is preferable over another band-aid.
+
+---
+
+### Your Options (ranked)
+
+**Option 1 — Permanent Fix: Card #95 | STD-2/3P-2 | €22,500 | impl: 3d**
+- Replaces both cooling counters (exterior + interior)
+- Addresses root cause; ""unlimited uses"" card so it works for repeat failures
+- 3-day downtime = minor availability loss (~€4,000 at 75% OpCon)
+- **Best value if the exterior unit has a hardware fault**
+
+**Option 2 — Repair Only: Card #51 | STD-2/3P-2 | €4,500 | impl: 2d**
+- Fixes exterior cooling counter specifically
+- Cheaper & faster, but only 2-day impl
+- Risk: if root cause is deeper (electrical/power), it may fail again → another €50,000 Cause Analysis penalty next time
+- **Best if budget is tight and you accept recurrence risk**
+
+**Option 3 — Cause Analysis first**
+- Costs **€50,000** (repeated penalty) before any fix spend
+- Only worthwhile if the cause is genuinely unclear and you want to avoid a wrong solution code (€15,000 penalty)
+- Rarely cost-effective at Severity 1
+
+---
+
+### Recommendation Framing
+- Card #95 (€22,500) likely **pays for itself quickly** vs. risking another €50,000 CA penalty
+- Check your current earnings — cards must be financed from current earnings, not investment budget"
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1):
+the outside display refrigerator suddenly shut down again. This is a repeated
+incident. What are my options, and how does the repeated nature of this
+incident affect my decision?",governed,7,2,5,253,10828,457,"## Ginosa Marina — Repeated Display Fridge Incident (ID 166, Day 2/26)
+
+### What ""repeated"" means for your decision
+- A repeated incident signals the **root cause wasn't resolved** last time — just the symptom
+- Running Cause Analysis again on a repeat costs **€50,000** (vs €15,000 first time)
+- If you apply the same fix again without addressing the root cause, expect a **third incident**
+
+---
+
+### Your Options (ranked by risk/cost trade-off)
+
+**Option 1 — Permanent fix: Investment card #95**
+- Card #95 | Order: STD-2 / 3P-2 | **€22,500** | impl: 3d downtime
+- Replaces both cooling counters (exterior + interior) — targets the hardware root cause
+- ✅ Best long-term resolution; stops the repeat cycle
+- ⚠️ 3-day downtime at ORANGE/RED = continued penalty (~€40–70k/day missed)
+
+**Option 2 — Cheap patch again: Repair card #51**
+- Card #51 | Order: STD-2 / 3P-2 | **€4,500** | impl: 2d
+- Fixes exterior cooling counter symptom only
+- ⚠️ High probability of a **third repeat** — adds cost and satisfaction damage over time
+- Only viable if cash is very tight this round
+
+**Option 3 — Cause Analysis first**
+- Cost: **€50,000** (repeat penalty rate)
+- May clarify if there's an underlying PDS/power node issue driving failures
+- ⚠️ Expensive given this is already a known repeat; #95 likely already targets the correct component
+
+---
+
+### Recommendation framing
+Given it's a repeat, **#95 is the higher-confidence fix** at relatively low cost. #51 is a false economy if it triggers incident #3."
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1):
+the outside display refrigerator suddenly shut down again. This is a repeated
+incident. What are my options, and how does the repeated nature of this
+incident affect my decision?",ungoverned,0,0,0,233,262,382,"## Repeated Refrigerator Shutdown – Ginosa Marina (ID 166)
+
+**Why repetition matters:**
+A second occurrence signals a systemic issue (aging unit, electrical fault, compressor wear), not a bad-luck event. Patching it again likely means a third failure — with escalating costs, food safety risk, and potential guest/health-inspector consequences.
+
+---
+
+### Options (Ranked)
+
+**1. 🔧 Full Replacement (Recommended)**
+- Break the failure cycle permanently
+- Higher upfront cost, but likely cheaper than repeated repairs + spoilage + reputation damage
+- *Assumption: replacement cost is available in your budget; check your cash position*
+- Best if you're heading into a high-traffic period (late-game periods typically are)
+
+**2. 🔍 Diagnostic Repair (Targeted Fix)**
+- Hire a specialist to identify root cause (electrical, compressor, seal) rather than a quick patch
+- Medium cost; buys time if budget is tight
+- Risk: if root cause is structural/age-related, you may still face failure in Period 3
+- Choose this if replacement funds aren't available *right now*
+
+**3. 🩹 Quick Patch Again (Not Recommended)**
+- Cheapest short-term, but repetition strongly suggests this won't hold
+- Acceptable *only* if Day 26 is very close to period end and you can defer the real fix to Period 3 budget
+
+---
+
+**Key trade-off question to ask yourself:**
+> *""How many days remain in this period, and can I absorb another shutdown before period reset?""*
+
+That answer should drive which option fits your timeline."
+"Period 2, Day 26. Ginosa Marina has a repeated incident (ID 166, severity 1):
+the outside display refrigerator suddenly shut down again. This is a repeated
+incident. What are my options, and how does the repeated nature of this
+incident affect my decision?",ungoverned,0,0,0,254,262,392,"## Repeated Refrigerator Shutdown – Ginosa Marina
+
+The repeated nature is the key signal here: a second failure strongly suggests an underlying systemic issue (power supply, compressor, aging unit) rather than a bad-luck one-off. Patching it again likely just delays a third incident.
+
+---
+
+### Ranked Options
+
+**1. Full Replacement (Recommended)**
+- Eliminates root cause; stops the incident cycle
+- Higher upfront cost, but repeated repairs + lost revenue + guest dissatisfaction likely exceed replacement cost over time
+- *Assumption: replacement is available in your equipment/card catalog*
+
+**2. Scheduled Deep Inspection + Targeted Repair**
+- Bring in a specialist fix rather than a quick patch — address the root cause (wiring, compressor, power circuit) without full replacement
+- Lower cost than replacement, but carries risk of *another* repeat if diagnosis misses something
+- Best if the unit is relatively new and replacement feels premature
+
+**3. Temporary Workaround + Planned Replacement**
+- Use a portable/rental cooler now; schedule permanent replacement next period
+- Keeps operations running with minimal downtime today
+- Delays the fix — risk of a Period 3 incident if replacement slips
+
+---
+
+### How Repetition Changes the Stakes
+- **Reputation/guest satisfaction** hits compound with repeated incidents — severity 1 now may escalate
+- **Staff morale/credibility** suffers if the same problem keeps surfacing
+- Your incident log (ID 166) being flagged repeated likely carries a **penalty multiplier** — worth checking your rules on repeat-incident scoring
+
+> *Key question to ask yourself: what's cheaper — replacement now, or a third incident in Period 3?*"
+"Period 2, Day 38. Wild West has an incident: the second entry door does
+not open (Incident ID 109, severity 1). What are my options to resolve
+this incident, and what are the cost trade-offs?",governed,2,4,5,257,10817,484,"## Wild West — Incident 109 (Entry Door) Options
+
+**Context:** Severity 1, Day 38 of Period 2. Wild West is a Show (Appeal 4.0, ~3,087/d gross profit). Current OpCon status not visible — flag if it's ORANGE/RED as urgency increases.
+
+---
+
+### Scanning the Knowledge Base
+
+Searching for cards scoped to Wild West that provide an **operational fix**:
+
+| # | Order Code | Card | Cost | Timing | Notes |
+|---|-----------|------|------|--------|-------|
+| **38** | STD-1 | Construction – Wild West Visitor Terrace | €28,500 | impl: 5d | Fixes operational issue; unlimited uses |
+| **79** | STD-2/3P-2 | Special Vacation – Wild West | €15,000 | impl: 5d | Operational fix; 1 use |
+| **80** | STD-1 | Personnel – Wild West Actor | €12,000 | impl: 7d | Operational fix; unlimited uses |
+| **163** | STD-5 | Health Care – Wild West Horse (Jolly Jumper) | €500 | delivery: 3d + impl: 5d | Targets horse/animal asset |
+
+---
+
+### ⚠️ Important Caveat
+**None of these cards explicitly reference an entry door.** Incident 109 (entry door) may require a card **not listed in the knowledge base**, or a cause analysis to identify the correct solution code.
+
+### Recommended Priority
+1. **#79 STD-2 / €15,000** — cheapest plausible operational fix, 5d downtime
+2. **#38 STD-1 / €28,500** — if door is structural/construction-related
+3. **Run Cause Analysis first** if uncertain — costs €15,000 but avoids a €15,000 wrong-code penalty
+
+Do **not** guess a solution code without confidence — wrong answers cost €15,000 each."
+"Period 2, Day 38. Wild West has an incident: the second entry door does
+not open (Incident ID 109, severity 1). What are my options to resolve
+this incident, and what are the cost trade-offs?",governed,4,3,4,254,10817,457,"## Wild West — Incident 109 (Entry Door, Severity 1)
+
+**Current risk:** Severity 1 suggests minor OpCon impact, but unresolved incidents can escalate. Wild West is currently at some degraded state — confirm your OpCon dot color to gauge urgency.
+
+---
+
+### Checking the Knowledge Base
+
+Scanning all Wild West cards: **no card in the database directly targets an entry door mechanism.**
+
+Cards that exist for Wild West operational fixes:
+- **#38** Construction - Visitor Terrace | STD-1 | €28,500 | impl: 5d — targets terrace, not door
+- **#79** Special Vacation | STD-2 | €15,000 | impl: 5d — generic operational fix
+- **#80** Personnel - Wild West Actor | STD-1 | €12,000 | impl: 7d — generic operational fix
+- **#163** Health Care - Wild West Horse | STD-5 | €500 | delivery: 3d + impl: 5d — targets Jolly Jumper only
+
+⚠️ **DATA GOVERNANCE FLAG:** No card in the validated knowledge base explicitly resolves an entry door fault (Incident 109). This likely means:
+
+1. **Option A — Try #79 (STD-2, €15,000, 5d):** Cheapest broad operational fix; may cover this incident.
+2. **Option B — Try #80 (STD-1, €12,000, 7d):** Similar scope, slightly cheaper but slower.
+3. **Option C — Use Cause Analysis in-game:** Spend €15,000 (inconclusive risk) to identify the correct card code directly — worth it if the wrong-code penalty (€15,000) is a real risk.
+
+**My recommendation:** Check your in-game incident detail panel — the correct order code is usually displayed there. Don't guess blind; wrong codes cost €15,000 each."
+"Period 2, Day 38. Wild West has an incident: the second entry door does
+not open (Incident ID 109, severity 1). What are my options to resolve
+this incident, and what are the cost trade-offs?",ungoverned,0,0,0,234,251,377,"## Incident 109 – Wild West Entry Door Failure (Severity 1)
+
+**Context assumptions:** Severity 1 = minor/low urgency; a second entry door means the attraction can likely still operate on reduced throughput via the primary door.
+
+---
+
+### Option 1 (Recommended): Schedule Standard Repair – Keep Attraction Open
+- Send maintenance during off-peak hours; attraction runs on one door
+- **Pros:** Revenue continues; low disruption; severity 1 suggests no safety closure required
+- **Cons:** Reduced entry throughput may cause minor queue buildup; slight guest satisfaction dip
+- **Cost assumption:** Routine repair – low cost (standard maintenance budget)
+
+---
+
+### Option 2: Emergency Same-Day Repair – Full Capacity Restored Quickly
+- Prioritize fix immediately, possibly paying a premium labor rate
+- **Pros:** Restores full throughput fast; minimizes queue issues on a busy Day 38
+- **Cons:** Higher cost than scheduled repair; may pull maintenance crew from other tasks
+- **Cost assumption:** ~1.5–2× standard repair cost *(assuming)*
+
+---
+
+### Option 3: Defer Repair – Monitor Only
+- Log it, take no immediate action
+- **Pros:** Zero immediate cost
+- **Cons:** Risk of incident escalating in severity; guest complaints accumulate; could worsen if related to a larger mechanical issue
+
+---
+
+### Key Trade-off Question:
+**How busy is Wild West right now?** If queues are already long, Option 2 pays for itself in throughput. If it's quiet on Day 38, Option 1 is almost certainly the right call."
+"Period 2, Day 38. Wild West has an incident: the second entry door does
+not open (Incident ID 109, severity 1). What are my options to resolve
+this incident, and what are the cost trade-offs?",ungoverned,0,0,0,251,251,421,"## Incident 109 – Wild West Entry Door Failure (Severity 1)
+
+**Context assumptions:** Severity 1 = minor operational issue; attraction likely still partially functional via remaining door(s). Day 38 of a period suggests you're mid-cycle with budget implications ahead.
+
+---
+
+### Ranked Options
+
+**1. Immediate Repair (Recommended)**
+- Dispatch maintenance crew now to fix the door mechanism
+- **Pros:** Resolves quickly, prevents severity escalation, maintains full guest throughput
+- **Cons:** Repair cost (likely low for severity 1); crew diverted from other tasks
+- *Best if queue buildup is already occurring*
+
+**2. Monitor & Schedule Repair (Next Maintenance Window)**
+- Keep attraction open on remaining door(s), flag for scheduled fix
+- **Pros:** Lower urgency cost, no crew disruption mid-day
+- **Cons:** Reduced entry throughput could hurt guest satisfaction/ratings; risk severity escalates to 2 if door condition worsens
+- *Best if current visitor load is light*
+
+**3. Close Attraction Temporarily**
+- Shut Wild West until door is repaired
+- **Pros:** Avoids any liability or satisfaction penalty from bottlenecked entry
+- **Cons:** Highest short-term revenue/satisfaction loss; likely overkill for severity 1
+- *Only viable if the single remaining door creates a genuine safety hazard*
+
+---
+
+### Key Trade-off Summary
+| Option | Cost | Risk | Disruption |
+|--------|------|------|------------|
+| Immediate repair | Low-Medium | Low | Low |
+| Scheduled repair | Low | Medium | Low |
+| Close attraction | None | Low | High |
+
+**Bottom line:** Severity 1 favors Option 1 or 2 depending on your current queue length."
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out
+(Incident ID 368, severity 0). The flour supplier previously filed for
+bankruptcy on Day 11. What are my options to restore this attraction,
+and which is most cost-effective?",governed,4,3,7,249,10829,484,"## 🟠 URGENT: PizzaPastaBasta Flour Stockout — Day 44, Period 2
+
+**Context:** Supplier bankruptcy (Day 11) means your standard supply chain is gone. Severity 0 suggests OpCon impact is active — every day down costs you ~€3,087 gross profit + potential ORANGE/RED penalties.
+
+---
+
+### Your Restoration Options (Ranked by Cost-Effectiveness)
+
+| Rank | Card | Order Code | Cost | Delivery | Notes |
+|------|------|-----------|------|----------|-------|
+| 1 | #159 Purchase - Flour (Extra) | STD-2 / 3P-3 | €450 | 5 days | Cheapest; slightly longer wait |
+| 2 | #161 Purchase - Flour (Supermarket) | STD-2 / 3P-3 | €750 | 3 days | Fastest of the purchase options; 2 days sooner than #159 |
+| 3 | #160 Purchase - Flour (Online) | STD-2 / 3P-3 | €650 | 7 days | Most expensive *and* slowest — **dominated by #159** |
+| 4 | #55 Frame Contract - PPB Flour | STD-2 / 3P-2 | €3,000 | 2 days | Fastest fix; unlimited uses, prevents recurrence |
+
+---
+
+### Trade-off Summary
+- **#159** saves €300 vs. #161 but costs 2 extra downtime days (~€6,174 lost profit) — **net worse** than #161
+- **#161** is the best pure speed/cost balance for a one-time fix
+- **#55 Frame Contract** costs more upfront but delivers in **2 days** and is reusable — strongly worth considering given your supplier is permanently gone
+
+**⚠️ Recommendation logic:** With no permanent supplier, #55 prevents this recurring; otherwise #161 minimises total downtime cost."
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out
+(Incident ID 368, severity 0). The flour supplier previously filed for
+bankruptcy on Day 11. What are my options to restore this attraction,
+and which is most cost-effective?",governed,3,3,6,242,10829,486,"## 🟠 URGENT: PizzaPastaBasta Flour Stockout — Day 44, Period 2
+
+**Context:** Supplier went bankrupt Day 11 → this is a recurring procurement risk. Severity 0 = attraction likely degraded (ORANGE/RED). Every day down = lost revenue + OpCon penalty.
+
+---
+
+### Your 3 Options to Restore Flour Supply
+
+| # | Card | Order Code | Price | Delivery | Notes |
+|---|------|-----------|-------|----------|-------|
+| **1** | #161 Purchase - Flour (Supermarket) | STD-2/3P-3 | €750 | 3 days | Fastest available; highest unit cost |
+| **2** | #159 Purchase - Flour (Extra) | STD-2/3P-3 | €450 | 5 days | Cheapest; 2 extra days of downtime |
+| **3** | #55 Frame Contract - PPB Flour | STD-2/3P-2 | €3,000 | 2 days | Fastest delivery; sets up ongoing supply relationship |
+
+---
+
+### Trade-off Analysis
+
+- **Option 1 (Supermarket, #161):** Best speed/cost balance. 3-day wait vs. €750. Good stopgap.
+- **Option 2 (Extra, #159):** Saves €300 but 2 extra penalty days. At ORANGE (€40k/day penalty), those 2 days cost **~€80,000** — this option is likely net-negative.
+- **Option 3 (Frame Contract, #55):** Fastest (2 days) + structural fix preventing recurrence. At €3,000 it's highly cost-effective given your supplier history.
+
+---
+
+### ⚠️ Recommendation Flag
+**Option 3 (#55) is strongly favored** — it's the only structural solution given the bankruptcy on Day 11, and the cost difference vs. #161 is negligible against daily penalty exposure. But the choice is yours."
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out
+(Incident ID 368, severity 0). The flour supplier previously filed for
+bankruptcy on Day 11. What are my options to restore this attraction,
+and which is most cost-effective?",ungoverned,0,0,0,256,263,419,"## Incident 368 – Flour Outage at Pizza Pasta Basta
+
+**Context note:** Your primary flour supplier went bankrupt on Day 11, so this likely isn't a one-time stockout — you probably have no active supplier relationship. Severity 0 suggests minor urgency, but ignoring it will hurt guest satisfaction over time.
+
+---
+
+### Ranked Options
+
+**1. 🥇 Emergency spot purchase from a secondary supplier (Best near-term value)**
+- Source flour from an alternate/spot-market vendor, likely at a 10–30% price premium
+- Gets the attraction running quickly with minimal downtime
+- *Assumption:* The game offers a vendor marketplace or spot-buy mechanic — common in business sims
+- Trade-off: Higher unit cost; no long-term supply security
+
+**2. 🥈 Contract a new permanent flour supplier**
+- Establish a fresh supplier relationship to replace the bankrupt one
+- More cost-effective per unit long-term; prevents recurrence
+- Trade-off: May have a lead time (1–5 days?), meaning short downtime continues
+- *Assumption:* Onboarding delay exists; check supplier catalog for terms
+
+**3. 🥉 Temporarily substitute menu items (flour-free offerings)**
+- Reduce attraction scope until supply is restored
+- Avoids emergency pricing; keeps the attraction partially open
+- Trade-off: Guest satisfaction hit, potentially lower revenue than Option 1's premium cost
+
+---
+
+### Recommendation Logic
+**Options 1 + 2 combined** is likely optimal: buy spot stock *now* to stop the bleed, simultaneously contract a new permanent supplier. The emergency premium is probably worth avoiding satisfaction decay.
+
+> ⚠️ *Confirm whether your game has a supplier catalog or spot-buy screen — that changes the cost math significantly.*"
+"Period 2, Day 44. Pizza Pasta Basta has an incident: flour is out
+(Incident ID 368, severity 0). The flour supplier previously filed for
+bankruptcy on Day 11. What are my options to restore this attraction,
+and which is most cost-effective?",ungoverned,0,0,0,234,263,386,"## Incident 368 – Flour Outage at Pizza Pasta Basta
+
+**Context note:** Your original supplier went bankrupt on Day 11, so this stockout was foreseeable — you likely have no auto-resupply in place.
+
+---
+
+### Ranked Options
+
+**1. 🥇 Emergency spot-buy from a secondary supplier (Best value)**
+- Find an alternative supplier in the vendor/contracts menu and place a one-time order
+- Severity 0 suggests this is minor/early — acting now avoids escalation
+- *Trade-off:* Spot prices are typically 15–30% above contract rates (assumption)
+- *Action:* Prioritize locking in a new ongoing contract at the same time to prevent recurrence
+
+**2. 🥈 Temporarily substitute menu items (Low cost, buys time)**
+- If the game allows menu editing, swap flour-dependent items for non-flour alternatives
+- Keeps the attraction partially operational and revenue flowing
+- *Trade-off:* Guest satisfaction may dip slightly; depends whether the game models menu flexibility (uncertain)
+
+**3. 🥉 Close attraction briefly and negotiate a new supply contract**
+- Use downtime to secure best contract terms rather than paying spot rates
+- *Trade-off:* Lost revenue during closure; only worthwhile if contract savings are significant
+
+---
+
+### Key Consideration
+Since severity is 0, you have a window before guest satisfaction takes a hit. **Option 1 is likely dominant** — emergency buy + new contract resolves it fast with minimal downtime.
+
+> ⚠️ *Assumed: game has multi-supplier options and spot-buy mechanics. Verify in your vendor screen.*"
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell
+is leaking from the first gas stove (Incident ID 155, severity 0).
+What are my options, and given the safety nature of this incident,
+how should I prioritize it relative to other open incidents?",governed,3,2,5,246,10834,437,"## Incident 155 — Angus Gas Stove Smell (Severity 0)
+
+**Important knowledge base note:** The activity cards database lists a gas stove repair card for **Wok-In-And-Find-Out** (#53), but **no equivalent card for Angus gas stove**. I cannot confirm a direct fix card from validated data — you may need to use Cause Analysis or check your in-game incident panel for the correct solution code.
+
+---
+
+### What I can confirm from the knowledge base for Angus:
+
+| Option | Card | Code | Cost | Timing | Trade-off |
+|--------|------|------|------|--------|-----------|
+| Sanitary Overhaul | #57 | STD-5 | €28,000 | impl: 5d | General operational fix; may not target gas stove specifically |
+| Smoke Detector | #46 | STD-3 | €15,000 | impl: 3d | Targets smoke detector, not gas stove — partial relevance |
+| Cause Analysis | — | — | €15,000 | varies | Identifies correct fix; costs €15k if inconclusive |
+
+---
+
+### Safety Prioritization
+
+**Severity 0 = lowest urgency rating**, but gas leaks carry real escalation risk:
+- Angus is already a low-margin attraction (GrossProfit ~€958/d) — a RED status costs **€70k penalty**
+- If it escalates to ORANGE/RED, the financial hit outweighs the repair cost quickly
+
+**Relative to other open incidents:** Prioritize this **above** low-severity non-safety issues, but don't let it crowd out any RED/ORANGE operational incidents you currently have.
+
+⚠️ **Recommendation:** Verify the correct fix card in your incident panel before purchasing — a wrong code costs **€15,000**."
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell
+is leaking from the first gas stove (Incident ID 155, severity 0).
+What are my options, and given the safety nature of this incident,
+how should I prioritize it relative to other open incidents?",governed,1,1,5,268,10834,472,"## Incident 155 — Angus Gas Stove Smell (Severity 0)
+
+**Scope:** Wok-In-And-Find-Out owns the gas stove cards in the knowledge base — but the incident is logged against **Angus**. The KB does not list a dedicated ""Angus gas stove repair"" card.
+
+> ⚠️ **DATA GAP:** No activity card in the knowledge base explicitly targets an Angus gas stove. I cannot confirm the correct solution code without risking a **€15,000 wrong-code penalty**. I'd recommend using **Cause Analysis** before ordering a card, unless you can verify the code from your in-game incident log.
+
+---
+
+### Your Options
+
+| # | Action | Cost | Timing | Trade-off |
+|---|--------|------|--------|-----------|
+| **1** | Run **Cause Analysis** on Incident 155 | €15k (inconclusive) / €50k (repeat) | Immediate result | Costs money but eliminates wrong-code risk on a safety issue |
+| **2** | Check in-game incident detail for a direct solution code | €0 | Immediate | Best outcome if the code is visible — no penalty risk |
+| **3** | Apply **Card #46** (Angus Smoke Detector, STD-3, €15k, impl:3d) | €15k | 3d downtime | Targets safety systems at Angus — may not resolve gas issue specifically |
+
+---
+
+### Priority Framing
+- **Severity 0** = low operational impact *now*, but gas leaks carry real safety/escalation risk
+- Angus is already a **low-profit attraction** (€958 gross/day) — extended closure hurts little financially, but an **unresolved safety incident can escalate OpCon to ORANGE/RED**
+- Recommend resolving **before** higher-revenue incidents only if other open incidents are GREEN
+
+**Bottom line:** Verify the solution code first — don't guess on a safety card."
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell
+is leaking from the first gas stove (Incident ID 155, severity 0).
+What are my options, and given the safety nature of this incident,
+how should I prioritize it relative to other open incidents?",ungoverned,0,0,0,233,268,381,"## Incident 155 – Gas Smell, Angus Restaurant
+
+### What We Know
+- **Severity 0** likely means lowest priority tier in the game's system
+- However, gas leaks are **real-world high-risk** events — fire/explosion potential means even a ""minor"" flag warrants prompt attention
+
+---
+
+### Ranked Options
+
+**1. Resolve immediately (recommended despite low severity rating)**
+- Gas incidents can escalate fast; early action prevents cascading damage
+- Close or isolate the stove, ventilate the area
+- Trade-off: Minor operational disruption to Angus kitchen throughput
+- *Assuming* the game models incident escalation over time if unresolved
+
+**2. Queue it next after any active safety/injury incidents**
+- Acceptable if you have Severity 2–3 incidents open right now demanding immediate staff
+- Keep Angus restaurant open but flag stove as out-of-service (if the game allows partial closures)
+- Trade-off: Escalation risk if the game ticks forward several days unresolved
+
+**3. Deprioritize / handle at natural staff availability**
+- Only reasonable if Severity 0 in this game means ""no escalation possible""
+- Trade-off: If escalation *is* modeled, you risk a much costlier incident later
+
+---
+
+### Priority Framing
+> **Override the severity rating here.** Gas = safety-critical in most simulations. Unless you have guest injury or structural incidents open, treat this as your **next action**.
+
+*Note: I'm assuming severity 0 = lowest tier and that incidents can escalate — confirm in your game's incident log if possible.*"
+"Period 2, Day 53. Angus restaurant has an incident: a suspicious gas smell
+is leaking from the first gas stove (Incident ID 155, severity 0).
+What are my options, and given the safety nature of this incident,
+how should I prioritize it relative to other open incidents?",ungoverned,0,0,0,234,268,396,"## Incident 155 – Gas Smell, Angus Restaurant
+
+### What We Know
+- **Severity 0** likely means lowest priority tier in the game's scale (assuming 0 = minor/informational)
+- However, **gas leaks are inherently safety-sensitive** regardless of system severity rating — real-world logic applies here
+
+---
+
+### Options (Ranked)
+
+**1. Investigate & Resolve Immediately (Recommended)**
+- Assign maintenance staff to inspect the stove now
+- Trade-off: pulls staff from other tasks, but gas incidents carry escalation risk
+- *Assumption:* unresolved gas incidents may escalate severity over time in-game
+
+**2. Schedule for Next Available Maintenance Window**
+- Address it within the current day before close
+- Acceptable *only* if you have confirmation the stove is isolated/shut off
+- Trade-off: lower disruption to operations, slightly higher risk if smell worsens
+
+**3. Close/Ignore Based on Severity 0 Rating**
+- Not recommended despite the low severity score
+- Gas leaks can cascade — a Severity 0 today may become a guest safety event tomorrow
+- Trade-off: saves time now, potential reputation/financial penalty later
+
+---
+
+### Priority Relative to Other Incidents
+- **Elevate this above other Severity 0 incidents** due to safety nature
+- Rank it **below** any active guest injury or structural incidents (Severity 2+)
+- Consider **temporarily taking Stove 1 offline** while resolving — *assuming* the restaurant can operate on remaining equipment
+
+> ⚠️ *Key assumption: severity scale runs 0–3 low-to-high. Confirm in your game's incident log.*"
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction
+is available to purchase at 450,000 with appeal +6. I already ordered
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether
+to invest further in it with activity cards, or hold the remaining budget
+for other incidents. What are my options?",governed,3,2,5,223,10852,427,"## Mindfreak Post-Purchase Decision — Period 2
+
+**Context check:** Mindfreak (Show, base appeal 6.0) is delivered. Your remaining budget after purchase: ~€50,000 (500k − 450k). Cards come from **current earnings**, not investment budget — so your €50k reserve is your incident buffer.
+
+---
+
+### Your 3 Options (ranked by risk/reward):
+
+**1. HOLD — No cards now** *(Recommended if incidents are likely)*
+- Keep €50k as emergency buffer
+- Mindfreak at base appeal 6.0 already contributes positively
+- Wait until Period 3 when earnings rebuild
+- **Trade-off:** Leaves appeal growth on the table; no visitor uplift boost
+
+---
+
+**2. Card #118 — Promotion (Mindfreak)** | STD-1 | €50,000 | runtime: 30d
+- Visitors +4.0%~+4.5% park-wide for 30 days
+- Spends your entire remaining buffer immediately
+- **Trade-off:** Strong short-term visitor spike, but **zero incident reserve** — any RED/ORANGE attraction this period could force a loss position where card buying is blocked
+
+---
+
+**3. Card #119 — Promotion (Enroon)** | STD-1/3P-1 | €275,000 | runtime: 90d
+- ⚠️ **NOT AFFORDABLE** at current €50k balance — listed for awareness only
+
+---
+
+### Key Constraint to Flag:
+> Cards #118 costs exactly your remaining €50k. One incident penalty (€15k–€70k) after buying it = operating at a loss = **no further card purchases possible**.
+
+**My suggestion:** Share your current profit/loss trend and any active OpCon warnings before committing."
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction
+is available to purchase at 450,000 with appeal +6. I already ordered
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether
+to invest further in it with activity cards, or hold the remaining budget
+for other incidents. What are my options?",governed,2,1,4,219,10852,403,"## Mindfreak Post-Purchase Decision — Period 2
+
+**Context check:** Mindfreak (Show, base appeal 6.0) is now live. You have ~€50k remaining after purchase. Activity cards must come from **current earnings**, not investment budget.
+
+---
+
+### Key consideration first:
+Your remaining €50k is your **incident buffer**. Mindfreak-specific cards are priced modestly, but timing matters.
+
+---
+
+### Option 1 — Hold all €50k as incident reserve *(lowest risk)*
+- No cards purchased now
+- Protects against RED/ORANGE incidents on existing attractions (repairs typically €3k–€35k)
+- **Trade-off:** Mindfreak runs at base appeal 6.0, base util 60% — acceptable but not maximized
+- Best if any attractions are currently YELLOW or showing instability
+
+---
+
+### Option 2 — Card #118 | STD-1 | €50,000 | Promotion (Mindfreak)
+- Visitors +4.0%~+4.5% | Runtime: 30 days | No downtime
+- Maximizes the **new attraction's visitor pull** while it's novel
+- **Trade-off:** Exhausts your buffer entirely — any incident requires operating-profit cover
+- Best if all attractions are GREEN and earnings are positive
+
+---
+
+### Option 3 — Partial: wait 5–10 days, buy #118 once earnings rebuild buffer
+- Lets daily profit replenish reserves before committing
+- **Trade-off:** Loses ~10 of the 30-day promotion window
+
+---
+
+**My flag:** Before choosing, confirm no attractions are currently ORANGE/RED — that changes priority immediately. What's your current OpCon status?"
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction
+is available to purchase at 450,000 with appeal +6. I already ordered
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether
+to invest further in it with activity cards, or hold the remaining budget
+for other incidents. What are my options?",ungoverned,0,0,0,230,286,389,"## Period 2 Budget Decision: Mindfreak Investment
+
+**Your situation:** Mindfreak purchased (450k), ~50k remaining. Core question is liquidity vs. growth.
+
+---
+
+### Option 1: Hold All Remaining Budget (Recommended)
+**Keep the ~50k as emergency reserve**
+- Period 2 typically brings incident cards (maintenance failures, weather, staffing) that can cost 15k–40k if unaddressed
+- +6 appeal alone should drive solid attendance gains without enhancement
+- *Assumption: incident frequency is moderate in Period 2 — adjust if your game has been quiet*
+- **Trade-off:** Leave potential appeal multipliers on the table
+
+---
+
+### Option 2: Light Activity Card Investment (~20–25k)
+**Spend roughly half your reserve on 1 high-value card**
+- If you have a marketing or ""Grand Opening"" type card available, early-period boosts tend to compound across remaining days
+- Keeps ~25–30k buffer for incidents
+- *Assumption: activity cards for Mindfreak exist in your current hand — confirm before committing*
+- **Trade-off:** Thin margin if two incidents hit simultaneously
+
+---
+
+### Option 3: Full Activity Card Push (Higher Risk)
+**Spend 40–45k on multiple cards**
+- Maximizes Mindfreak's appeal window while it's novel
+- Leaves you dangerously exposed (~5–10k) to any incident
+- Only viable if you're confident Period 2 incident risk is low or you've already absorbed major events
+- **Trade-off:** One bad incident card could cascade
+
+---
+
+**Key question to ask yourself:** How many incident cards have already fired this period?"
+"Period 2. I have a current budget of 500,000. The Mindfreak attraction
+is available to purchase at 450,000 with appeal +6. I already ordered
+it on Day 4 and it was delivered on Day 14. Now I need to decide whether
+to invest further in it with activity cards, or hold the remaining budget
+for other incidents. What are my options?",ungoverned,0,0,1,223,286,367,"## Period 2 Budget Decision: Mindfreak Investment
+
+**Your situation:** ~50,000 remaining after Mindfreak purchase. Attraction is installed and running.
+
+---
+
+### Option 1: Hold reserves, no activity cards (Recommended)
+- 50k is a thin buffer — amusement park sims typically throw maintenance failures, weather events, or staff incidents mid-period
+- Mindfreak's +6 appeal likely carries itself without enhancement right now
+- **Trade-off:** You leave appeal gains on the table, but you avoid being caught cash-zero during a crisis
+
+### Option 2: Invest in one low-cost activity card (~15–25k assumed)
+- If you have a marketing or ""buzz"" card available, a single targeted boost on Mindfreak could amplify its +6 appeal during peak visitor windows
+- Leaves ~25–35k emergency buffer (tight but functional)
+- **Trade-off:** Moderate risk; assumes no major incident this period
+- *Assuming card costs are in the 15–25k range — verify your card catalog*
+
+### Option 3: Go all-in on activity cards
+- Maximizes Mindfreak's short-term revenue potential
+- **Not recommended** — near-zero reserves in Period 2 is dangerous; early periods often include mandatory spend events
+
+---
+
+### Key questions to weigh yourself:
+- Do you have any **incident warnings or flagged risks** visible on your dashboard?
+- Is this a **peak attendance period**? (Higher upside for Option 2)
+- What does your **card catalog actually cost**? (My pricing is assumed)"
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures
+than usual are being transmitted from the cameras across the park
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple
+open incidents still unresolved. Should I address this infrastructure
+issue now or defer it? What are my options?",governed,4,2,6,268,10842,512,"## VSS Incident 312 — Decision Support
+
+### What the game rules tell us
+- VSS is listed as **auto** infrastructure (not reconfigurable like PDS/STM)
+- Severity 1 = low severity; no attraction is shown at RED/ORANGE from this incident alone
+- VSS nodes: C1, C2, A2, B3, B4, D1, B1 — relevant cards exist for some nodes
+
+---
+
+### Relevant Cards for VSS
+
+| # | Order Code | Card | Cost | Timing | Effect |
+|---|---|---|---|---|---|
+| #170 | STD-2/4R-3 | Purchase VSS Component B4 (Fast) | €450 | 5d delivery | Operational fix |
+| #171 | STD-2/4R-3 | Purchase VSS Component B4 (Standard) | €650 | 7d delivery | Operational fix |
+| #172 | STD-2/4R-3 | Purchase VSS Component B4 (Express) | €750 | 3d delivery | Operational fix |
+| #99 | STD-2/4R-3 | Surveillance - BDN As4 | €500 | 2d impl | Operational fix (BDN, not VSS) |
+
+---
+
+### Your Options
+
+**Option 1 — Act now (Express, #172):** €750, resolves in 3d. Minimal budget impact; clears the incident fast before it escalates.
+
+**Option 2 — Act now (Fast, #170):** €450, resolves in 5d. Saves €300 vs. express; low risk at severity 1.
+
+**Option 3 — Defer:** Severity 1 with no current OpCon penalty visible. Preserve budget for higher-priority open incidents.
+
+---
+
+### Key consideration
+**I cannot confirm from the knowledge base alone which VSS node is faulty** — your incident screen (ID 312) should specify. If it's **not B4**, cards #170–172 won't apply and you'd need Cause Analysis first (costs €15,000 if inconclusive). Verify the node before purchasing."
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures
+than usual are being transmitted from the cameras across the park
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple
+open incidents still unresolved. Should I address this infrastructure
+issue now or defer it? What are my options?",governed,4,2,6,246,10842,472,"## VSS Incident 312 — Decision Support
+
+### What the knowledge base tells us
+- VSS nodes: C1, C2, A2, B3, **B4**, D1, B1
+- ""Fewer pictures transmitted"" = likely a single node fault (B4 is the most commonly referenced purchasable component in the card list)
+- Severity 1 = low urgency operationally, but unresolved infrastructure incidents can escalate
+
+---
+
+### Your Options (ranked by cost/risk)
+
+**Option 1 — Fast targeted fix (Recommended if B4 is confirmed fault)**
+- Card #172 | STD-2/4R-3 | Purchase VSS Component B4 (Express) | €750 | delivery: 3d
+- Card #171 | STD-2/4R-3 | Purchase VSS Component B4 (Standard) | €650 | delivery: 7d
+- Card #170 | STD-2/4R-3 | Purchase VSS Component B4 (Fast) | €450 | delivery: 5d
+- Trade-off: Negligible cost vs. your €500k budget. Express costs €300 more than Fast for 2 days saved.
+
+**Option 2 — Surveillance fix (if camera node, not component)**
+- Card #99 | STD-2/4R-3 | Surveillance BDN As4 | €500 | impl: 2d
+- ⚠️ This targets BDN, not VSS — only use if cause analysis points here.
+
+**Option 3 — Defer**
+- Severity 1 = no attraction OpCon penalty visible yet
+- Trade-off: Risk of escalation; incident may worsen and trigger OpCon degradation or system charges
+
+---
+
+### Key Flag
+⚠️ **Confirm the faulty node via cause analysis before ordering** — wrong solution code = €15,000 penalty. At €450–750, the component fix is cheap enough to act fast once confirmed."
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures
+than usual are being transmitted from the cameras across the park
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple
+open incidents still unresolved. Should I address this infrastructure
+issue now or defer it? What are my options?",ungoverned,0,0,0,240,276,381,"## Incident 312 – VSS Camera Throughput Drop (Severity 1)
+
+**Quick read:** Severity 1 is low, but camera/VSS issues can cascade into safety-compliance or guest-experience problems if ignored too long.
+
+---
+
+### Ranked Options
+
+**1. Defer with a monitoring flag (Recommended)**
+- Severity 1 = low urgency; no immediate guest or revenue impact implied
+- Free up budget bandwidth for higher-severity open incidents
+- Set a manual reminder to re-check by Day 70–72
+- *Assumption: higher-severity incidents are consuming budget and attention — defer only if no safety/security compliance requirement tied to camera uptime*
+
+**2. Partial/cheap fix now**
+- If the incident has a low-cost resolution option (e.g., a software patch or bandwidth reallocation card), spend it now to close the ticket cleanly
+- Prevents severity escalation, which could spike cost later
+- *Assumption: some incidents in Fort Fantastic escalate if unresolved past a threshold — worth checking the incident timer*
+
+**3. Resolve immediately**
+- Only warranted if VSS feeds are tied to a compliance metric, a park-safety KPI, or a pending inspection event on your timeline
+- At 500K budget with multiple open incidents, full spend here is hard to justify
+- *Assumption: no imminent inspection — adjust if one is scheduled*
+
+---
+
+### Key questions to guide you:
+- Does Incident 312 show an **escalation timer**?
+- Are any open incidents **severity 3+**?
+- Is a **park inspection or audit** coming soon?
+
+Those answers should clinch the call."
+"Period 2, Day 67. A VSS infrastructure incident occurred: fewer pictures
+than usual are being transmitted from the cameras across the park
+(Incident ID 312, severity 1). My current budget is 500,000 with multiple
+open incidents still unresolved. Should I address this infrastructure
+issue now or defer it? What are my options?",ungoverned,0,0,0,248,276,395,"## Incident 312 – VSS Picture Transmission (Severity 1)
+
+**Context read:** Severity 1 = low priority. Budget is constrained with competing incidents open.
+
+---
+
+### Ranked Options
+
+**1. Defer & Monitor (Recommended)**
+- Severity 1 suggests limited operational impact right now
+- Redirect budget toward higher-severity open incidents first
+- Set a review trigger: if transmission drops further or a related incident spawns, escalate
+- *Assumption: higher-severity incidents carry more guest/revenue risk*
+
+**2. Partial Fix – Targeted Low-Cost Intervention**
+- If the game offers a cheap diagnostic or partial repair option, apply it now
+- Stops incident from cascading into a Severity 2/3 without heavy spend
+- Preserves budget for critical items
+- *Assumption: tiered repair costs exist; worth checking if a minimal action closes or stabilizes it*
+
+**3. Full Immediate Resolution**
+- Resolve completely now for certainty
+- **Not recommended** given budget pressure and low severity — overpaying for urgency you don't have
+- Only justified if VSS feeds directly gate a revenue mechanic (e.g., photo sales booth) you know is losing income daily
+
+---
+
+### Key Trade-off Summary
+
+| Option | Budget Risk | Cascade Risk | Upside |
+|---|---|---|---|
+| Defer | Low | Moderate | Preserves funds |
+| Partial fix | Low-Med | Low | Stability hedge |
+| Full resolve | High | None | Certainty |
+
+**Bottom line:** With multiple open incidents and 500K stretched thin, deferring Severity 1 is defensible — unless you're seeing measurable revenue loss tied to it."
